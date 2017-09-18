@@ -1,5 +1,5 @@
 baseurl = "https://elizabethssept18blog.netlify.com/"
-title = "Tracks"
+title = "Elizabeth's Sept 18 Blog"
 theme = "hugo-tracks-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -47,7 +47,7 @@ googleAnalytics = ""
   [params.social]
   facebook      = "full page or profile url in facebook"
   googleplus    = "full profile url in googleplus"
-  email         = "email@example.com"
+  email         = "ebross@mercyhurst.edu"
   twitter       = "full profile url in twitter"
   linkedin      = "full profile url in linkedin"
   stackoverflow = "full profile url in stackoverflow"
