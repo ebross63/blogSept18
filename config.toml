@@ -1,5 +1,5 @@
-baseurl = "https://elizabethssept18blog.netlify.com/"
-title = "Elizabeth's Sept 18th Blog"
+baseurl = "https://example.org/"
+title = "Tracks"
 theme = "hugo-tracks-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
