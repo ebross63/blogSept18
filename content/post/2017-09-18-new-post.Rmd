@@ -3,31 +3,38 @@ title: New Post
 author: Elizabeth Bross
 date: '2017-09-18'
 slug: new-post
-categories: []
-tags: []
+categories: [Practice]
+tags: [R, Picture]
 image: "img/portfolio/office.jpg"
 
 ---
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-<!--more-->
+This is a blog about data science.
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+I will use R to show examples
 
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+R Studio is easy to use, here are the packages you will need:
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
+1. dplyr
+2. Lahman
 
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+> The dplyr package is a grammar of data manipulation. Lahman provides stats from the history of professional baseball.
 
-## Header Level 2
+## Examples
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+First we must load packages:
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+```{r message=FALSE, warning=FALSE}
+library(Lahman)
+library(dplyr)
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
+```
 
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+Then we can explore the data:
+```{r message=TRUE, warning=FALSE}
+Batting%>%
+  filter(HR>50)%>%
+  select(playerID,HR)
+```
+
+
