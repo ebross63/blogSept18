@@ -1,0 +1,9 @@
+---
+title: New Post
+author: Elizabeth Bross
+date: '2017-09-18'
+slug: new-post
+categories: []
+tags: []
+---
+
