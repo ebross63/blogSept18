@@ -5,7 +5,7 @@ date: '2017-09-18'
 slug: new-post
 categories: []
 tags: []
-image: "img/portfolio/a4-paper.jpg"
+image: "img/portfolio/office.jpg"
 
 ---
 
