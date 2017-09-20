@@ -34,7 +34,8 @@ Then we can explore the data:
 ```{r message=TRUE, warning=FALSE}
 Batting%>%
   filter(HR>50)%>%
-  select(playerID,HR)
+  select(playerID,HR)%>%
+  arrange(HR)
 ```
 
 

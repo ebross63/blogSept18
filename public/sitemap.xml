@@ -3,70 +3,98 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://elizabethssept18blog.netlify.com/post/new-post/</loc>
+    <loc>/post/addition/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/subtraction/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/new-post/</loc>
     <lastmod>2017-09-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://elizabethssept18blog.netlify.com/contact/</loc>
+    <loc>/contact/</loc>
     <lastmod>2016-11-06T13:00:25+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://elizabethssept18blog.netlify.com/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://elizabethssept18blog.netlify.com/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://elizabethssept18blog.netlify.com/categories/</loc>
+    <loc>/tags/addition/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://elizabethssept18blog.netlify.com/contact/</loc>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
     <lastmod>2016-11-06T13:00:25+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://elizabethssept18blog.netlify.com/</loc>
+    <loc>/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/mathematics/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/picture/</loc>
     <lastmod>2017-09-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://elizabethssept18blog.netlify.com/tags/picture/</loc>
+    <loc>/post/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/practice/</loc>
     <lastmod>2017-09-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://elizabethssept18blog.netlify.com/post/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2017-09-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://elizabethssept18blog.netlify.com/categories/practice/</loc>
-    <lastmod>2017-09-18T00:00:00+00:00</lastmod>
+    <loc>/tags/subtraction/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://elizabethssept18blog.netlify.com/tags/r/</loc>
-    <lastmod>2017-09-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://elizabethssept18blog.netlify.com/tags/</loc>
-    <lastmod>2017-09-18T00:00:00+00:00</lastmod>
+    <loc>/tags/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

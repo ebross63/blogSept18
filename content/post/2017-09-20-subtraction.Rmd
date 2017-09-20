@@ -1,0 +1,23 @@
+---
+title: subtraction
+author: Elizabeth Bross
+date: '2017-09-20'
+slug: subtraction
+categories:
+  - mathematics
+tags: [subtraction]
+
+image: "img/portfolio/water.jpg"
+---
+
+Let's do some subtraction:
+
+```{r}
+
+x<-4
+y<-9
+
+x-y
+
+```
+

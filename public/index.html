@@ -15,17 +15,17 @@
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
 
-<link rel="stylesheet" href="https://elizabethssept18blog.netlify.com/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" id="ct-tracks-google-fonts-css" href="//fonts.googleapis.com/css?family=Raleway%3A400%2C700&amp;subset=latin%2Clatin-ext&amp;ver=4.7.2" type="text/css" media="all">
-<link rel="stylesheet" href="https://elizabethssept18blog.netlify.com/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
 
-<link href="https://elizabethssept18blog.netlify.com/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+<link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
 
-<link href="https://elizabethssept18blog.netlify.com/css/custom.css" rel="stylesheet">
-<link rel="shortcut icon" href="https://elizabethssept18blog.netlify.com/img/favicon.png">
+<link href="/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="/img/favicon.png">
 
-<link href="https://elizabethssept18blog.netlify.com/index.xml" rel="alternate" type="application/rss+xml" title="Elizabeth&#39;s Sept 18 Blog" />
-<link href="https://elizabethssept18blog.netlify.com/index.xml" rel="feed" type="application/rss+xml" title="Elizabeth&#39;s Sept 18 Blog" />
+<link href="/index.xml" rel="alternate" type="application/rss+xml" title="Elizabeth&#39;s Sept 18 Blog" />
+<link href="/index.xml" rel="feed" type="application/rss+xml" title="Elizabeth&#39;s Sept 18 Blog" />
 
 
 </head>
@@ -40,6 +40,8 @@
   <div class="col-sm-6">
     <div class="categories-block">
       <a href="" class="track-categories"></a>
+      
+      <a href="/categories/mathematics">mathematics</a>
       
       <a href="/categories/practice">practice</a>
       
@@ -58,10 +60,6 @@
         <i class="fa fa-envelope"></i>
       </a>
       
-      
-      <a href="https://www.linkedin.com/in/elizabeth-bross-9502203b/" data-animate-hover="pulse">
-        <i class="fa fa-linkedin"></i>
-      </a>
       
       
       
@@ -116,6 +114,52 @@
 
 <div class="row content">
   
+  <div class="col-sm-12 content-excerpt">
+  
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row content-date">
+          September 20
+        </div>
+        <div class="row content-title">
+          <h2> <a href="/post/addition/ "> Addition </a> </h2>
+        </div>
+        <div class="row content-summary">
+          Let’s do some addition:
+x&lt;-4y&lt;- 6x+y## [1] 10
+          <a class="more-link" href="/post/addition/ ">Read the post</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row content">
+  
+  <div class="col-sm-6 content-image" style="background-image: url(img/portfolio/water.jpg)">
+  </div>
+  <div class="col-sm-6 content-excerpt">
+  
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row content-date">
+          September 20
+        </div>
+        <div class="row content-title">
+          <h2> <a href="/post/subtraction/ "> subtraction </a> </h2>
+        </div>
+        <div class="row content-summary">
+          Let’s do some subtraction:
+x&lt;-4y&lt;-9x-y## [1] -5
+          <a class="more-link" href="/post/subtraction/ ">Read the post</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row content">
+  
   <div class="col-sm-6 content-image" style="background-image: url(img/portfolio/office.jpg)">
   </div>
   <div class="col-sm-6 content-excerpt">
@@ -126,7 +170,7 @@
           September 18
         </div>
         <div class="row content-title">
-          <h2> <a href="https://elizabethssept18blog.netlify.com/post/new-post/ "> New Post </a> </h2>
+          <h2> <a href="/post/new-post/ "> New Post </a> </h2>
         </div>
         <div class="row content-summary">
           This is a blog about data science.
@@ -135,8 +179,8 @@ R Studio is easy to use, here are the packages you will need:
 dplyrLahmanThe dplyr package is a grammar of data manipulation. Lahman provides stats from the history of professional baseball.
 ExamplesFirst we must load packages:
 library(Lahman)library(dplyr)Then we can explore the data:
-Batting%&gt;%filter(HR&gt;50)%&gt;%select(playerID,HR)## playerID HR## 1 ruthba01 54## 2 ruthba01 59## 3 ruthba01 60## 4 ruthba01 54## 5 wilsoha01 56## 6 foxxji01 58## 7 greenha01 58## 8 kinerra01 51## 9 mizejo01 51## 10 kinerra01 54## 11 mayswi01 51## 12 mantlmi01 52## 13 mantlmi01 54## 14 marisro01 61## 15 mayswi01 52## 16 fostege01 52## 17 fieldce01 51## 18 mcgwima01 52## 19 griffke02 56## 20 griffke02 56## 21 mcgwima01 70## 22 sosasa01 66## 23 mcgwima01 65## 24 sosasa01 63## 25 bondsba01 73## 26 gonzalu01 57## 27 rodrial01 52## 28 sosasa01 64## 29 rodrial01 57## 30 thomeji01 52## 31 jonesan01 51## 32 howarry01 58## 33 ortizda01 54## 34 rodrial01 54## 35 bautijo02 54## 36 davisch02 53
-          <a class="more-link" href="https://elizabethssept18blog.netlify.com/post/new-post/ ">Read the post</a>
+Batting%&gt;%filter(HR&gt;50)%&gt;%select(playerID,HR)%&gt;%arrange(HR)## playerID HR## 1 kinerra01 51## 2 mizejo01 51## 3 mayswi01 51## 4 fieldce01 51## 5 jonesan01 51## 6 mantlmi01 52## 7 mayswi01 52## 8 fostege01 52## 9 mcgwima01 52## 10 rodrial01 52## 11 thomeji01 52## 12 davisch02 53## 13 ruthba01 54## 14 ruthba01 54## 15 kinerra01 54## 16 mantlmi01 54## 17 ortizda01 54## 18 rodrial01 54## 19 bautijo02 54## 20 wilsoha01 56## 21 griffke02 56## 22 griffke02 56## 23 gonzalu01 57## 24 rodrial01 57## 25 foxxji01 58## 26 greenha01 58## 27 howarry01 58## 28 ruthba01 59## 29 ruthba01 60## 30 marisro01 61## 31 sosasa01 63## 32 sosasa01 64## 33 mcgwima01 65## 34 sosasa01 66## 35 mcgwima01 70## 36 bondsba01 73
+          <a class="more-link" href="/post/new-post/ ">Read the post</a>
         </div>
       </div>
     </div>
@@ -176,10 +220,6 @@ Batting%&gt;%filter(HR&gt;50)%&gt;%select(playerID,HR)## playerID HR## 1 rut
       </a>
       
       
-      <a href="https://www.linkedin.com/in/elizabeth-bross-9502203b/" data-animate-hover="pulse">
-        <i class="fa fa-linkedin"></i>
-      </a>
-      
       
       
       <a href="https://github.com/ebross63" data-animate-hover="pulse">
@@ -195,15 +235,15 @@ Batting%&gt;%filter(HR&gt;50)%&gt;%select(playerID,HR)## playerID HR## 1 rut
         </div>
       </div>
     </div>
-    <script src="https://elizabethssept18blog.netlify.com/js/jquery.min.js"></script>
-<script src="https://elizabethssept18blog.netlify.com/js/bootstrap.min.js"></script>
-<script src="https://elizabethssept18blog.netlify.com/js/jquery.cookie.js"> </script>
-<script src="https://elizabethssept18blog.netlify.com/js/ekko-lightbox.js"></script>
-<script src="https://elizabethssept18blog.netlify.com/js/jquery.scrollTo.min.js"></script>
-<script src="https://elizabethssept18blog.netlify.com/js/masonry.pkgd.min.js"></script>
-<script src="https://elizabethssept18blog.netlify.com/js/imagesloaded.pkgd.min.js"></script>
-<script src="https://elizabethssept18blog.netlify.com/js/owl.carousel.min.js"></script>
-<script src="https://elizabethssept18blog.netlify.com/js/front.js"></script>
+    <script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.cookie.js"> </script>
+<script src="/js/ekko-lightbox.js"></script>
+<script src="/js/jquery.scrollTo.min.js"></script>
+<script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/front.js"></script>
 
   </body>
 </html>
